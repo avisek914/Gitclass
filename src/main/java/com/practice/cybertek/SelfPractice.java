@@ -35,7 +35,7 @@ public class SelfPractice {
     driver.findElement(By.xpath("//a[text()='Table']")).click();
     driver.findElement(By.linkText("Table Data Download")).click();
     driver.findElement(By.xpath("//input[@type='search']")).sendKeys("coll");
-
+    System.out.println("second commit");
 
 
 }
